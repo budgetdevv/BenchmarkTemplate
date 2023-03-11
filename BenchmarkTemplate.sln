@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrWriteBench", "ArrWriteBench\ArrWriteBench.csproj", "{8A1C2FAC-9F12-4154-B4A2-D8AB01E7D5FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkTemplate", "BenchmarkTemplate\BenchmarkTemplate.csproj", "{8A1C2FAC-9F12-4154-B4A2-D8AB01E7D5FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
