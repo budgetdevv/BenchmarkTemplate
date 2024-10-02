@@ -6,9 +6,15 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <EnablePreviewFeatures>true</EnablePreviewFeatures>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <DefineConstants Condition="$([MSBuild]::IsOSPlatform('OSX'))">OS_IS_OSX</DefineConstants>
+        <DefineConstants Condition="$([MSBuild]::IsOSPlatform('Windows'))">OS_IS_WINDOWS</DefineConstants>
+    </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+        <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+        <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.14.0" />
     </ItemGroup>
 
 </Project>
